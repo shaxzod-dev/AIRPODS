@@ -1,6 +1,6 @@
 @import url(./fonts.css);
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,19 +8,153 @@
     list-style: none;
 }
 
-body{
+body {
     background-color: #151515;
 }
 
-.container{
+.container {
     max-width: 1160px;
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+/* HEADER START */
+
+.page-header {
+    background: #282828;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+    display: flex;
+}
+
+.logo-img {
+    padding-left: 15px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav_link {
+    color: #FFF;
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+    padding: 21px 15px;
+}
+
+.search {
+    display: flex;
+}
+
+.search-links {
+    padding: 23px 13px;
+    transition: .4s;
+}
+
+.search-links:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+/* BANNER START */
+
+.banner {
+    background: url(../images/banner-img_airpods.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+
+.banner-info {
+    position: relative;
+    max-width: 663px;
+    max-height: 163px;
+    padding-top: 204px;
+    margin-left: 223px;
+    text-align: center;
+}
+
+.banner-info_title {
+    color: #FFF;
+    font-family: ProstoOne-Regular;
+    font-size: 100px;
+    line-height: 75px;
+    margin-bottom: 38px;
+}
+
+.banner-info_btn {
+    color: #171718;
+    font-family: Montserrat-Medium;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FFF;
+    padding-block: 14px;
+    padding-right: 25px;
+    border: 1px solid #FFFFFF;
+
+}
+
+.banner-info_img {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    fill: #171718;
+    left: 402px;
+    top: 336px;
+    transition: .4s;
+}
+
+.banner-info_img:hover{
+    transform: scale(1.5);
+}
+
+/* BANNER END */
+
+/* MAIN END */
+
+/* FOOTER START */
+
+.page-footer {
+    background-color: #282828;
+    box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav_links {
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+    padding: 21px 15px;
+}
+
+.images{
+    display: flex;
+    column-gap: 30px;
+}
+
+.images-logo{
+    padding-block: 80px;
+}
+
+/* FOOTER END */
